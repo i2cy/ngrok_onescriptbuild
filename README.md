@@ -2,6 +2,7 @@
 Simplify the building of ngrok with golang (you don't even to install golang environment)
 
 ## Usage
+~~~
 ./python3 build_release.py
 
   -t --target DOMAIN             your domain
@@ -13,6 +14,7 @@ Simplify the building of ngrok with golang (you don't even to install golang env
   -w --windows                   build for windows
   -m --macos                     build for macos
   -h --help                      show help
+~~~
 
 ## Caution
 build_release.py can only be executed on Linux, be mind.
